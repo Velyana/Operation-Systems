@@ -1,0 +1,16 @@
+until who | grep "^$1" > /home
+do
+sleep 6
+done
+echo $1 started a session!
+
+#while true
+#do
+#if who | grep "^$1" > /home
+#then
+#echo $1 works
+#break
+#else
+#sleep 6 
+#fi
+#done

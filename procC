@@ -1,0 +1,12 @@
+sum=5
+for x in a1 a2 a3 a4 a5
+do for y
+do if test $y -lt $#
+then sum=`expr $sum - 1`
+echo $sum $y $x
+else continue
+echo $y $x
+fi
+done
+break
+done

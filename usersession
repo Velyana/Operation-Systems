@@ -1,0 +1,2 @@
+n=`who | grep "^$1" | wc -l`
+echo User $1: $n sessions

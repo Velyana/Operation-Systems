@@ -1,0 +1,13 @@
+echo
+echo Session info:
+echo
+who
+echo
+echo Dir contents:
+echo
+ls -l
+echo
+echo Current date and time:
+echo
+date
+

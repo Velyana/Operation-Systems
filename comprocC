@@ -1,0 +1,21 @@
+if test -n $3
+then echo $2
+for prom
+do echo $prom > fpar
+done
+else echo $1
+echo > prom
+fi
+cat fpar
+read niz
+while cat fpar | grep $niz
+do
+set arg1 $1
+echo $3
+echo $1 $2
+exit
+done
+set aaa
+echo $2
+echo $prom $1
+echo SUCCESS

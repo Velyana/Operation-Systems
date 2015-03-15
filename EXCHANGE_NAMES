@@ -1,0 +1,8 @@
+#I nachin
+#mv a c
+#mv b a
+#mv c b
+#II nachin
+mv $1 work
+mv $2 $1
+mv work $2

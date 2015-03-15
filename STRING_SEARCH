@@ -1,0 +1,6 @@
+echo Enter a string: 
+read STR
+for each
+do
+grep $STR $each
+done
